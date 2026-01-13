@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="7 Cudów Świata">
+    <meta name="keywords" content="Cuda, Świat, Cuda Świata, 7 Cudów Świata">
+    <meta name="author" content="Nikita Mykhtoniuk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Cudów Świata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1 id="logo">Cuda Świata</h1>
+</div>
+<a href="index.html" class="link">Strona główna</a>
+ <form>
+    <h2>Quiz o 7 Cudach Świata</h2>
+
+    
+    <label for="name">Twoje imię:</label>
+    <input type="text" id="name" name="name" placeholder="Wpisz swoje imię">
+
+   
+    <label for="visited">Ile cudów świata udało Ci się odwiedzić?</label>
+    <input type="number" id="visited" name="visited" min="0" max="7" placeholder="0-7">
+
+   
+    <label>Który z cudów świata najbardziej Cię interesuje?</label>
+    <div class="options">
+        <label><input type="radio" name="q1" value="Chichen Itza"> Chichen Itza</label>
+        <label><input type="radio" name="q1" value="Taj Mahal"> Taj Mahal</label>
+        <label><input type="radio" name="q1" value="Koloseum"> Koloseum</label>
+        <label><input type="radio" name="q1" value="Machu Picchu"> Machu Picchu</label>
+    </div>
+
+    
+    <label>Na jakim kontynencie leży Machu Picchu?</label>
+    <select name="q2" id="q2">
+        <option value="">--Wybierz kontynent--</option>
+        <option value="Ameryka Północna">Ameryka Północna</option>
+        <option value="Ameryka Południowa">Ameryka Południowa</option>
+        <option value="Europa">Europa</option>
+        <option value="Azja">Azja</option>
+    </select>
+
+  
+    <label>Które z cudów świata są w Azji? (możesz wybrać kilka)</label>
+    <div class="options">
+        <label><input type="checkbox" name="q3" value="Taj Mahal"> Taj Mahal</label>
+        <label><input type="checkbox" name="q3" value="Wielki Mur Chiński"> Wielki Mur Chiński</label>
+        <label><input type="checkbox" name="q3" value="Petra"> Petra</label>
+        <label><input type="checkbox" name="q3" value="Chichen Itza"> Chichen Itza</label>
+    </div>
+
+    
+    <label>Wpisz najbardziej rozpoznawalny symbol Brazylii:</label>
+    <input type="text" name="q4">
+
+
+    <div class="buttons">
+        <button type="submit" class="submit">Wyślij</button>
+        <button type="reset" class="reset">Wyczyść</button>
+    </div>
+</form>
+
+   <footer>
+    <p>Stronę wykonał: Nikita Mykhtoniuk z 2tb</p>
+</footer>
+</body>
+</html>
